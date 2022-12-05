@@ -81,7 +81,7 @@ namespace WindowsFormsApp4
             karteD.Text = (x.ToString());
             KarteE.Text = (x.ToString());
             KarteF.Text = (x.ToString());
-            Superzahl.Text = (y.ToString()); // Ausgabe der Superzahl
+            Superzahl1.Text = (y.ToString()); // Ausgabe der Superzahl
 
         }
     }

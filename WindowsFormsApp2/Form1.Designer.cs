@@ -42,9 +42,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(167, 18);
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(292, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 16);
+            this.label1.Size = new System.Drawing.Size(197, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Kartenauswerfer";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -99,6 +100,7 @@
             // 
             // Randomstarter
             // 
+            this.Randomstarter.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Randomstarter.Location = new System.Drawing.Point(317, 233);
             this.Randomstarter.Name = "Randomstarter";
             this.Randomstarter.Size = new System.Drawing.Size(120, 70);
@@ -135,14 +137,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label Gambeler;
-        private System.Windows.Forms.Button Karte1;
-        private System.Windows.Forms.Button Karte2;
-        private System.Windows.Forms.Button Karte3;
-        private System.Windows.Forms.Button Karte4;
-        private System.Windows.Forms.Button Karte5;
-        private System.Windows.Forms.Button Karte6;
-        private System.Windows.Forms.Button Superzahl;
+       
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox karteA;
         private System.Windows.Forms.TextBox karteB;
