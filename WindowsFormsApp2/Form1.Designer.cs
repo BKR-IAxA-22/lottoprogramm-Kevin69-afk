@@ -130,6 +130,7 @@
             this.Controls.Add(this.karteA);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
+            this.Text = "Lottoprogramm";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -23,37 +23,37 @@ namespace WindowsFormsApp4
        
         
 
-        private void label1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)// Überschrift
         {
 
         }
 
-        private void karteA_TextChanged(object sender, EventArgs e)
+        private void karteA_TextChanged(object sender, EventArgs e)// Zahl 1
         {
 
         }
 
-        private void karteB_TextChanged(object sender, EventArgs e)
+        private void karteB_TextChanged(object sender, EventArgs e)// Zahl 2
         {
 
         }
 
-        private void karteC_TextChanged(object sender, EventArgs e)
+        private void karteC_TextChanged(object sender, EventArgs e)// Zahl 3
         {
 
         }
 
-        private void karteD_TextChanged(object sender, EventArgs e)
+        private void karteD_TextChanged(object sender, EventArgs e)// Zahl 4
         {
 
         }
 
-        private void KarteE_TextChanged(object sender, EventArgs e)
+        private void KarteE_TextChanged(object sender, EventArgs e)// Zahl 5
         {
 
         }
 
-        private void KarteF_TextChanged(object sender, EventArgs e)
+        private void KarteF_TextChanged(object sender, EventArgs e)// Zahl 6
         {
 
         }
@@ -84,6 +84,8 @@ namespace WindowsFormsApp4
             Superzahl1.Text = (y.ToString()); // Ausgabe der Superzahl
             
             //Fehler: Falscher Screen wird augegeben und der richtige Screen kann nicht benutzt werden 
+
+
             
 
         }
