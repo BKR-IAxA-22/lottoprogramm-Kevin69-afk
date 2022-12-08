@@ -37,6 +37,12 @@
             this.KarteF = new System.Windows.Forms.TextBox();
             this.Randomstarter = new System.Windows.Forms.Button();
             this.Superzahl1 = new System.Windows.Forms.TextBox();
+            this.Gelegtezahl1 = new System.Windows.Forms.TextBox();
+            this.Gelegtezahl2 = new System.Windows.Forms.TextBox();
+            this.Gelegtezahl3 = new System.Windows.Forms.TextBox();
+            this.Gelegtezahl4 = new System.Windows.Forms.TextBox();
+            this.Gelegtezahl5 = new System.Windows.Forms.TextBox();
+            this.Gelegtezahl6 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -117,9 +123,57 @@
             this.Superzahl1.TabIndex = 8;
             this.Superzahl1.TextChanged += new System.EventHandler(this.Superzahl1_TextChanged);
             // 
+            // Gelegtezahl1
+            // 
+            this.Gelegtezahl1.Location = new System.Drawing.Point(31, 204);
+            this.Gelegtezahl1.Name = "Gelegtezahl1";
+            this.Gelegtezahl1.Size = new System.Drawing.Size(100, 22);
+            this.Gelegtezahl1.TabIndex = 9;
+            // 
+            // Gelegtezahl2
+            // 
+            this.Gelegtezahl2.Location = new System.Drawing.Point(150, 204);
+            this.Gelegtezahl2.Name = "Gelegtezahl2";
+            this.Gelegtezahl2.Size = new System.Drawing.Size(100, 22);
+            this.Gelegtezahl2.TabIndex = 10;
+            // 
+            // Gelegtezahl3
+            // 
+            this.Gelegtezahl3.Location = new System.Drawing.Point(271, 204);
+            this.Gelegtezahl3.Name = "Gelegtezahl3";
+            this.Gelegtezahl3.Size = new System.Drawing.Size(100, 22);
+            this.Gelegtezahl3.TabIndex = 11;
+            // 
+            // Gelegtezahl4
+            // 
+            this.Gelegtezahl4.Location = new System.Drawing.Point(389, 205);
+            this.Gelegtezahl4.Name = "Gelegtezahl4";
+            this.Gelegtezahl4.Size = new System.Drawing.Size(100, 22);
+            this.Gelegtezahl4.TabIndex = 12;
+            // 
+            // Gelegtezahl5
+            // 
+            this.Gelegtezahl5.Location = new System.Drawing.Point(513, 204);
+            this.Gelegtezahl5.Name = "Gelegtezahl5";
+            this.Gelegtezahl5.Size = new System.Drawing.Size(100, 22);
+            this.Gelegtezahl5.TabIndex = 13;
+            // 
+            // Gelegtezahl6
+            // 
+            this.Gelegtezahl6.Location = new System.Drawing.Point(632, 204);
+            this.Gelegtezahl6.Name = "Gelegtezahl6";
+            this.Gelegtezahl6.Size = new System.Drawing.Size(100, 22);
+            this.Gelegtezahl6.TabIndex = 14;
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(735, 341);
+            this.Controls.Add(this.Gelegtezahl6);
+            this.Controls.Add(this.Gelegtezahl5);
+            this.Controls.Add(this.Gelegtezahl4);
+            this.Controls.Add(this.Gelegtezahl3);
+            this.Controls.Add(this.Gelegtezahl2);
+            this.Controls.Add(this.Gelegtezahl1);
             this.Controls.Add(this.Superzahl1);
             this.Controls.Add(this.Randomstarter);
             this.Controls.Add(this.KarteF);
@@ -148,6 +202,12 @@
         private System.Windows.Forms.TextBox KarteF;
         private System.Windows.Forms.Button Randomstarter;
         private System.Windows.Forms.TextBox Superzahl1;
+        private System.Windows.Forms.TextBox Gelegtezahl1;
+        private System.Windows.Forms.TextBox Gelegtezahl2;
+        private System.Windows.Forms.TextBox Gelegtezahl3;
+        private System.Windows.Forms.TextBox Gelegtezahl4;
+        private System.Windows.Forms.TextBox Gelegtezahl5;
+        private System.Windows.Forms.TextBox Gelegtezahl6;
     }
 }
 
