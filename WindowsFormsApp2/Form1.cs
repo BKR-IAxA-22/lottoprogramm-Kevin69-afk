@@ -82,6 +82,9 @@ namespace WindowsFormsApp4
             KarteE.Text = (x.ToString());
             KarteF.Text = (x.ToString());
             Superzahl1.Text = (y.ToString()); // Ausgabe der Superzahl
+            
+            //Fehler: Falscher Screen wird augegeben und der richtige Screen kann nicht benutzt werden 
+            
 
         }
     }
